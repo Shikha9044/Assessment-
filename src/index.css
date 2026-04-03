@@ -29,6 +29,9 @@ body {
     radial-gradient(circle at 68% 66%, rgba(255, 182, 205, 0.34), transparent 23%),
     radial-gradient(circle at 28% 50%, rgba(255, 255, 255, 0.7), transparent 20%),
     var(--paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 #root {
@@ -44,4 +47,28 @@ h3 {
 
 a {
   font-family: var(--title-font);
+}
+
+/* Mobile touch improvements */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  button,
+  input {
+    font-size: 16px;
+  }
+
+  button {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+  }
+
+  input {
+    -webkit-appearance: none;
+    appearance: none;
+  }
 }

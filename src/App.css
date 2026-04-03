@@ -1012,3 +1012,578 @@ main {
     margin-top: 30px;
   }
 }
+
+@media (max-width: 640px) {
+  .topbar {
+    grid-template-columns: 90px 1fr 34px;
+    min-height: 56px;
+    padding: 0 12px;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .main-nav {
+    padding: 8px;
+    gap: 8px;
+    top: 56px;
+  }
+
+  .main-nav a {
+    font-size: 9px;
+    padding: 6px 4px;
+  }
+
+  .hero-card {
+    padding: 24px 12px 16px;
+  }
+
+  .hero-card h1 {
+    font-size: clamp(36px, 10vw, 54px);
+  }
+
+  .hero-card p {
+    max-width: 100%;
+    font-size: 12px;
+    margin: 16px auto 18px;
+  }
+
+  .faces {
+    height: 120px;
+    margin-top: 12px;
+  }
+
+  .face-item {
+    width: 64px;
+    height: 64px;
+  }
+
+  .face-1 {
+    left: 5%;
+    top: 45px;
+  }
+
+  .face-2 {
+    left: 18%;
+    top: 0;
+  }
+
+  .face-3 {
+    left: 31%;
+    top: 55px;
+  }
+
+  .face-4 {
+    left: 44%;
+    top: 8px;
+  }
+
+  .face-5 {
+    left: 56%;
+    top: 43px;
+  }
+
+  .face-6 {
+    left: 68%;
+    top: 5px;
+  }
+
+  .face-7 {
+    left: 79%;
+    top: 48px;
+  }
+
+  .story-block,
+  .story-block.second {
+    padding: 36px 12px;
+    gap: 12px;
+  }
+
+  .story-block::after {
+    display: none;
+  }
+
+  .story-copy h2 {
+    font-size: clamp(28px, 8vw, 40px);
+  }
+
+  .story-copy p {
+    font-size: 12px;
+    margin: 0 0 16px;
+  }
+
+  .story-visual {
+    min-height: 220px;
+  }
+
+  .circle-photo {
+    width: min(200px, 85vw);
+  }
+
+  .square {
+    width: 56px;
+    height: 52px;
+    right: 12px;
+    top: 4px;
+  }
+
+  .triangle {
+    border-left-width: 32px;
+    border-right-width: 32px;
+    border-bottom-width: 56px;
+    top: 12px;
+    left: 2px;
+  }
+
+  .offer-section {
+    padding: 32px 12px 44px;
+  }
+
+  .offer-headline-wrap {
+    min-height: 90px;
+  }
+
+  .offer-heading {
+    font-size: clamp(32px, 9vw, 46px);
+  }
+
+  .offer-top-curve {
+    display: none;
+  }
+
+  .offer-row {
+    grid-template-columns: 1fr;
+    padding: 12px 0;
+    min-height: auto;
+  }
+
+  .offer-row p {
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+  .offer-row h3 {
+    font-size: clamp(26px, 7vw, 40px);
+  }
+
+  .offer-row button {
+    font-size: 24px;
+  }
+
+  .offer-row.active .offer-detail {
+    max-height: 120px;
+  }
+
+  .featured-title {
+    padding: 6px 8px 10px;
+  }
+
+  .testimonial-section {
+    padding: 36px 12px 50px;
+  }
+
+  .testimonial-heading {
+    font-size: clamp(32px, 9vw, 46px);
+  }
+
+  .testimonial-avatars {
+    height: 140px;
+    margin-top: 8px;
+  }
+
+  .t-avatar-1 {
+    width: 40px;
+    height: 40px;
+    left: -5px;
+    top: -18px;
+  }
+
+  .t-avatar-2 {
+    width: 26px;
+    height: 26px;
+    left: -8px;
+    top: 52px;
+  }
+
+  .t-avatar-3 {
+    width: 70px;
+    height: 70px;
+    left: -3px;
+    top: 80px;
+  }
+
+  .t-avatar-4 {
+    width: 30px;
+    height: 30px;
+    right: 26%;
+    top: 8px;
+  }
+
+  .t-avatar-5 {
+    width: 46px;
+    height: 46px;
+    right: 8%;
+    top: -16px;
+  }
+
+  .t-avatar-6 {
+    width: 36px;
+    height: 36px;
+    right: 20%;
+    top: 60px;
+  }
+
+  .t-avatar-7 {
+    width: 80px;
+    height: 80px;
+    right: -2%;
+    top: 100px;
+  }
+
+  .testimonial-section::after {
+    height: 8px;
+  }
+
+  .testimonial-card {
+    margin-top: -80px;
+    width: calc(100% - 16px);
+    padding: 12px 14px;
+    border-width: 1px;
+  }
+
+  .testimonial-card::before,
+  .testimonial-card::after {
+    font-size: 48px;
+  }
+
+  .testimonial-card::before {
+    left: 6px;
+    top: 2px;
+  }
+
+  .testimonial-card::after {
+    right: 6px;
+    bottom: -14px;
+  }
+
+  .testimonial-card p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .testimonial-meta {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+
+  .testimonial-controls {
+    margin-top: 10px;
+    gap: 6px;
+  }
+
+  .testimonial-controls button {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+
+  .newsletter-section {
+    padding: 32px 12px 20px;
+  }
+
+  .newsletter-deco .wave {
+    width: 50px;
+    height: 28px;
+    border-width: 1px;
+  }
+
+  .newsletter-head h2 {
+    font-size: clamp(32px, 10vw, 48px);
+  }
+
+  .newsletter-head p {
+    font-size: 11px;
+    margin: 10px 0 14px;
+  }
+
+  .newsletter-head button {
+    padding: 8px 16px;
+    font-size: 10px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+  .subscription-note {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+
+  .site-footer {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 24px;
+    padding-top: 16px;
+  }
+
+  .footer-col h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .footer-col a,
+  .footer-col p {
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+
+  .copyright {
+    margin-top: 16px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    grid-template-columns: 70px 1fr 30px;
+    min-height: 50px;
+    padding: 0 10px;
+  }
+
+  .brand {
+    font-size: 14px;
+  }
+
+  .main-nav {
+    top: 50px;
+    padding: 6px;
+  }
+
+  .main-nav a {
+    font-size: 8px;
+  }
+
+  .hero-card {
+    padding: 18px 10px 12px;
+  }
+
+  .hero-card h1 {
+    font-size: clamp(28px, 9vw, 40px);
+  }
+
+  .hero-card p {
+    font-size: 11px;
+    margin: 12px auto 14px;
+    padding: 5px 6px;
+  }
+
+  .faces {
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  .face-item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .face-1,
+  .face-3,
+  .face-5,
+  .face-7 {
+    top: 36px;
+  }
+
+  .face-2,
+  .face-4,
+  .face-6 {
+    top: -5px;
+  }
+
+  .story-block,
+  .story-block.second {
+    padding: 24px 10px;
+  }
+
+  .story-copy h2 {
+    font-size: clamp(22px, 7vw, 32px);
+  }
+
+  .story-copy p {
+    font-size: 11px;
+  }
+
+  .story-visual {
+    min-height: 180px;
+  }
+
+  .circle-photo {
+    width: 140px;
+  }
+
+  .square {
+    width: 40px;
+    height: 38px;
+    right: 8px;
+    top: 0;
+  }
+
+  .triangle {
+    border-left-width: 24px;
+    border-right-width: 24px;
+    border-bottom-width: 42px;
+  }
+
+  .offer-section {
+    padding: 24px 10px 32px;
+  }
+
+  .offer-heading {
+    font-size: clamp(24px, 8vw, 36px);
+  }
+
+  .offer-headline-wrap {
+    min-height: 70px;
+  }
+
+  .offer-row h3 {
+    font-size: clamp(20px, 6vw, 32px);
+  }
+
+  .offer-row p {
+    font-size: 11px;
+  }
+
+  .offer-row button {
+    font-size: 20px;
+  }
+
+  .testimonial-section {
+    padding: 24px 10px 38px;
+  }
+
+  .testimonial-heading {
+    font-size: clamp(24px, 8vw, 36px);
+  }
+
+  .testimonial-avatars {
+    height: 110px;
+    margin-top: 6px;
+  }
+
+  .t-avatar-1 {
+    width: 32px;
+    height: 32px;
+    top: -12px;
+  }
+
+  .t-avatar-2 {
+    width: 20px;
+    height: 20px;
+    top: 42px;
+  }
+
+  .t-avatar-3 {
+    width: 56px;
+    height: 56px;
+    top: 66px;
+  }
+
+  .t-avatar-4 {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+  }
+
+  .t-avatar-5 {
+    width: 36px;
+    height: 36px;
+    right: 6%;
+    top: -10px;
+  }
+
+  .t-avatar-6 {
+    width: 28px;
+    height: 28px;
+    top: 48px;
+  }
+
+  .t-avatar-7 {
+    width: 64px;
+    height: 64px;
+    top: 82px;
+  }
+
+  .testimonial-card {
+    margin-top: -60px;
+    padding: 10px 10px;
+  }
+
+  .testimonial-card::before,
+  .testimonial-card::after {
+    font-size: 36px;
+  }
+
+  .testimonial-card::before {
+    left: 4px;
+    top: 0;
+  }
+
+  .testimonial-card::after {
+    right: 4px;
+    bottom: -10px;
+  }
+
+  .testimonial-card p {
+    font-size: 12px;
+  }
+
+  .testimonial-meta {
+    font-size: 9px;
+  }
+
+  .newsletter-section {
+    padding: 24px 10px 16px;
+  }
+
+  .newsletter-head h2 {
+    font-size: clamp(24px, 8vw, 38px);
+  }
+
+  .newsletter-head p {
+    font-size: 10px;
+    margin: 8px 0 10px;
+  }
+
+  .newsletter-head button {
+    padding: 7px 14px;
+    font-size: 9px;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+    font-size: 11px;
+    padding: 9px 12px;
+  }
+
+  .subscription-note {
+    font-size: 9px;
+  }
+
+  .footer-col h3 {
+    font-size: 14px;
+  }
+
+  .footer-col a,
+  .footer-col p {
+    font-size: 10px;
+  }
+}
